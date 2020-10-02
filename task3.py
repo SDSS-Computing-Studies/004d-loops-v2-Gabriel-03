@@ -1,7 +1,4 @@
-a = int(input("Enter a number: "))
-sum = 0
-for i in range(1,a+1):
-    while i > 0:
-        sum += 10**(i - 1)
-        i -= 1
-print("the sum of the series is " + str(sum))
+a = (25, 8, 10, 11, 33, 30, 51, 75, 63, 14, 20, 99)
+for x in a:
+    if x % 5 == 0:
+        print(str(x))
