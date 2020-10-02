@@ -1,4 +1,3 @@
-integer=input("Enter a integer")
-integer=int(integer)
-for i in range(1,12):
-    print(integer*i)
+a=int(input("Enter a integer"))
+for i in range(1,13):
+    print(a*i, end= " ")
